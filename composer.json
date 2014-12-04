@@ -11,9 +11,9 @@
           "php": ">=5.3.0"
         },
         "source": {
-          "url": "https://github.com/echo-it/opbeat-php",
+          "url": "https://github.com/piquadrat/opbeat-php",
           "type": "git",
-          "reference": "master"
+          "reference": "feature/set-default-endpoint"
         },
         "autoload": {
           "classmap": ["opbeat/", "opbeat/transport/", "opbeat/message/part/"]

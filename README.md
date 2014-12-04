@@ -25,6 +25,8 @@ $ git push heroku master
 $ heroku open
 ```
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## Documentation
 
 For more information about using PHP on Heroku, see these Dev Center articles:

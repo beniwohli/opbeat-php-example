@@ -1,0 +1,13 @@
+{
+    "name": "Opbeat PHP example",
+    "description": "Minimal example for heroku php app with Opbeat integration",
+    "logo": "https://secure.gravatar.com/avatar/a6ec5537afa27bdb4fe5056e2d34810d",
+    "repository": "https://github.com/piquadrat/opbeat-php-example",
+    "keywords": ["opbeat", "flask", "error logging", "release tracking"],
+    "success_url": "/",
+    "env": {
+        "OPBEAT_ORGANIZATION_ID": null,
+        "OPBEAT_APP_ID": null,
+        "OPBEAT_SECRET_TOKEN": null
+    }
+}

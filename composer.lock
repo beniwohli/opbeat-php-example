@@ -4,32 +4,8 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "869c4e2d9032127daf7b60fb18bbef57",
+    "hash": "eb4440519a221f92b497b476d4d78833",
     "packages": [
-        {
-            "name": "echo-it/opbeat-php",
-            "version": "0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/echo-it/opbeat-php",
-                "reference": "master"
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "opbeat/",
-                    "opbeat/transport/",
-                    "opbeat/message/part/"
-                ]
-            },
-            "description": "Error logger for Opbeat",
-            "keywords": [
-                "opbeat"
-            ]
-        },
         {
             "name": "monolog/monolog",
             "version": "1.11.0",
@@ -149,6 +125,30 @@
                 "dependency injection"
             ],
             "time": "2013-11-22 08:30:29"
+        },
+        {
+            "name": "piquadrat/opbeat-php",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/piquadrat/opbeat-php",
+                "reference": "feature/set-default-endpoint"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "opbeat/",
+                    "opbeat/transport/",
+                    "opbeat/message/part/"
+                ]
+            },
+            "description": "Error logger for Opbeat",
+            "keywords": [
+                "opbeat"
+            ]
         },
         {
             "name": "psr/log",

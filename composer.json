@@ -3,7 +3,7 @@
     {
       "type": "package",
       "package": {
-        "name": "echo-it/opbeat-php",
+        "name": "piquadrat/opbeat-php",
         "version": "0.1",
         "description": "Error logger for Opbeat",
         "keywords": ["opbeat"],
@@ -24,7 +24,7 @@
   "require" : {
     "silex/silex": "~1.1",
     "monolog/monolog": "~1.7",
-    "echo-it/opbeat-php": "*"
+    "piquadrat/opbeat-php": "*"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"

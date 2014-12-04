@@ -2,9 +2,9 @@
 
 require('../vendor/autoload.php');
 
-$organization_id = getenv('OPBEAT_ORGANIZATION_ID')
-$application_id = getenv('OPBEAT_APP_ID')
-$secret_token = getenv('OPBEAT_SECRET_TOKEN')
+$organization_id = getenv('OPBEAT_ORGANIZATION_ID');
+$application_id = getenv('OPBEAT_APP_ID');
+$secret_token = getenv('OPBEAT_SECRET_TOKEN');
 
 if ($organization_id && $application_id && $secret_token){
   $client = new Opbeat_Client($organization_id, $application_id, $secret_token);
